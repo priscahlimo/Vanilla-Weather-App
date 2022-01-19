@@ -1,10 +1,10 @@
-/* body{
+ body{
     background-image: url("../images/beach.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-color: aquamarine; */
-/* }
+    
+}
 .home{
     background-color: beige;
     opacity: .9;
@@ -22,5 +22,5 @@
     color:#fff;
     border-radius: 15px;
     padding:15px;
-    margin-top: 15px; */ */
+    margin-top: 15px; 
 }
