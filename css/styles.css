@@ -9,7 +9,7 @@
     background-color: beige;
     opacity: .9;
     border-radius: 50px;
-    box-shadow:5px 5px 5px cyan;
+    box-shadow:5px 5px 5px rgb(105, 163, 163);
 }
 .prediction{
     
@@ -23,4 +23,12 @@
     border-radius: 15px;
     padding:15px;
     margin-top: 15px; 
+}
+.coder{
+    float: right;
+    margin-right: 200px;
+    
+}
+.coder p{
+    font-size: 15px;
 }
