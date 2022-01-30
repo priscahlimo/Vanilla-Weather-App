@@ -10,6 +10,7 @@
     opacity: .9;
     border-radius: 50px;
     box-shadow:5px 5px 5px rgb(105, 163, 163);
+    height: 70vh;
 }
 .prediction{
     
@@ -17,13 +18,7 @@
     padding:20px;
     justify-content: space-between;
 }
-.mon, .tue, .wed, .thur, .friday, .sat, .sun{
-    background-color: rgb(76, 202, 196);
-    color:#fff;
-    border-radius: 15px;
-    padding:15px;
-    margin-top: 15px; 
-}
+
 .coder{
     float: right;
     margin-right: 200px;
