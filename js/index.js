@@ -38,7 +38,7 @@ function handleTemp (response){
     document.querySelector(".temp").innerHTML = Math.round(currentTemperature) 
     document.querySelector(".city-name").innerHTML = response.data.name
     document.querySelector("#humid").innerHTML=response.data.main.humidity+"%"
-    document.querySelector("#windy").innerHTML=response.data.wind.speed +"km/h"
+    document.querySelector("#windy").innerHTML=Math.round(response.data.wind.speed) +"km/h"
     document.querySelector("#prep").innerHTML=response.data.weather[0].description
 
 
