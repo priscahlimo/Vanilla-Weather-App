@@ -57,7 +57,7 @@ search(cityElement)
 
 function search(city) {
     let key = "d987c3e70953ea07826bfce27d61b157";
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
 
     axios.get(url).then(handleTemp);
 }
