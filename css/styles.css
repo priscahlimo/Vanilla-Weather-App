@@ -10,7 +10,7 @@
     opacity: .9;
     border-radius: 50px;
     box-shadow:5px 5px 5px rgb(105, 163, 163);
-    height: 70vh;
+    height: 90vh;
 }
 .prediction{
     
@@ -33,4 +33,8 @@
 }
 .active:hover{
     cursor:default;
+}
+.weather-forecast-min{
+    color: black;
+    opacity: 0.5;
 }
