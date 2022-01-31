@@ -45,7 +45,7 @@ function handleTemp (response){
     let dateElement=document.querySelector("#date")
     dateElement.innerHTML= getTime(response.data.dt*1000)
     let icons=document.querySelector("#icon");
-    icons.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
+    icons.setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
     
 }
 
@@ -57,7 +57,7 @@ search(cityElement)
 
 function search(city) {
     let key = "d987c3e70953ea07826bfce27d61b157";
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
 
     axios.get(url).then(handleTemp);
 }
