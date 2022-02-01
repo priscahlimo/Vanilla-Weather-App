@@ -10,7 +10,7 @@
     opacity: .9;
     border-radius: 50px;
     box-shadow:5px 5px 5px rgb(105, 163, 163);
-    height: 90vh;
+    /* height: 90vh; */
 }
 .prediction{
     
